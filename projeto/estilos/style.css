@@ -1,5 +1,60 @@
 @charset "UTF-8";
 
-body {
-    background-color: darkslateblue;
+:root {
+    --cor0: #dad7cd;
+    --cor1: #a3b18a;
+    --cor2: #588157;
+    --cor3: #3a5a40;
+    --cor4: #344e41;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: 
+    'menu logo pesquisa pesquisa usuario'
+    'menu logo pesquisa pesquisa carrinho'
+    ;
+
+    align-items: center;
+
+    background-color: var(--cor2);
+    width: 100vw;
+    height: 60px;
+    box-sizing: border-box;
+}
+
+.header_menu {
+    width: 50px;
+    height: 50px;
+    background-color: var(--cor1);
+}
+
+.header_logo {
+    width: 50px;
+    height: 50px;
+}
+
+.header_logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.header_pesquisa {
+    width: 50vw;
+    height: 50px;
+    background-color: var(--cor1);
+}
+
+.header_usuario {
+    width: 100px;
+    height: 50px;
+    background-color: var(--cor1);
+}
+
+.header_carrinho {
+    width: 100px;
+    height: 50px;
+    background-color: var(--cor1);
 }
