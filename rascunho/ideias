@@ -1,0 +1,86 @@
+Device breakpoints 2023:
+
+Extra Pequeno (Celulares): Até 576 pixels de largura.
+Pequeno (Tablets): De 577 pixels a 768 pixels de largura.
+Médio (Desktops e Notebooks Pequenos): De 769 pixels a 992 pixels de largura.
+Grande (Desktops Maiores e Notebooks): De 993 pixels a 1200 pixels de largura.
+Extra Grande (Monitores Grandes): 1201 pixels ou mais.
+
+----------------------------------------------------------------------------------
+
+Paleta de cores:
+
+dad7cd
+a3b18a
+588157
+3a5a40
+344e41
+
+-----------------------------------------------------------------------------------
+
+Nome da Loja: "BeautyBoutique"
+
+Descrição: "BeautyBoutique" é uma loja online especializada em produtos de beleza, oferecendo uma ampla variedade de cosméticos, cuidados com a pele, fragrâncias e produtos de bem-estar. A loja é um destino completo para os entusiastas de beleza em busca de produtos de alta qualidade e marcas renomadas.
+
+1. Home:
+A página inicial exibirá os lançamentos mais recentes, ofertas especiais e recomendações de beleza.
+Destacará produtos em destaque e fornecerá links para guias de beleza e tutoriais.
+
+2. Produtos:
+Nesta aba, os clientes podem explorar categorias de produtos, como maquiagem, cuidados com a pele, fragrâncias, cabelo e produtos para banho e corpo.
+Cada produto terá imagens de alta qualidade, descrições detalhadas, instruções de uso e avaliações dos clientes.
+
+3. Suporte:
+A aba "Suporte" oferecerá recursos para os clientes, incluindo guias de cuidados com a pele, informações sobre ingredientes, políticas de devolução e um chat de suporte ao cliente.
+
+4. Perfil:
+Os clientes podem criar uma conta, fazer login e acessar seu perfil, onde podem gerenciar suas preferências, endereços de entrega, histórico de compras e listas de desejos.
+
+5. Carrinho:
+Os clientes podem adicionar produtos ao carrinho de compras, revisar os itens selecionados, calcular os custos de envio e proceder ao pagamento.
+
+6. Login:
+Esta aba permite que os clientes façam login em suas contas existentes ou criem uma nova conta.
+Os clientes podem se inscrever para receber newsletters e promoções de beleza.
+Certifique-se de que o design da loja seja atraente, com cores e imagens que evocam a beleza e a elegância. Além disso, garanta que a loja forneça informações detalhadas sobre os ingredientes dos produtos e recursos de busca avançada para facilitar a navegação. Também é importante implementar recursos de segurança para proteger as informações pessoais dos clientes e as transações de pagamento.
+
+-----------------------------------------------------------------------------------
+
+1. Layout Minimalista e Elegante:
+Use um design limpo e minimalista, com cores suaves e neutras que transmitem elegância.
+Destaque imagens de alta qualidade dos produtos e mantenha o texto descritivo claro e conciso.
+Utilize uma barra de navegação simples no topo da página para facilitar a localização de produtos e informações.
+
+2. ayout de Carrossel de Destaques:
+Na página inicial, inclua um carrossel de destaques com os produtos mais recentes, promoções e lançamentos.
+Abaixo do carrossel, organize os produtos em categorias com imagens cativantes e títulos atrativos.
+
+3. Filtros e Classificação:
+Implemente filtros de pesquisa e opções de classificação, como por tipo de produto, marca, preço e classificação dos clientes.
+Permita que os clientes personalizem sua experiência de compra de acordo com suas preferências.
+
+4. Seção de Avaliações de Clientes:
+Inclua uma seção de avaliações de clientes em cada página de produto, onde os clientes podem compartilhar suas opiniões e experiências.
+As avaliações ajudam a criar confiança e fornecem informações adicionais aos compradores.
+
+5. Página de Cuidados com a Pele Interativa:
+Crie uma página informativa sobre cuidados com a pele com guias interativos e vídeos de tutoriais.
+Isso pode ser uma seção educacional que destaca produtos recomendados para diferentes tipos de pele.
+
+6. Ofertas Especiais e Promoções:
+Destaque ofertas especiais, descontos e promoções em locais estratégicos, como a página inicial e a página de produtos em destaque.
+Use elementos visuais chamativos, como rótulos de "Oferta Especial" ou "Desconto".
+
+7. Design Responsivo:
+Certifique-se de que o layout seja responsivo para que os clientes possam navegar na loja facilmente em dispositivos móveis, tablets e desktops.
+
+8. Página de Blog de Beleza:
+Inclua uma seção de blog com artigos sobre tendências de beleza, dicas de maquiagem, avaliações de produtos e outros conteúdos relacionados à beleza.
+
+9. Destaque para Marcas de Cosméticos:
+Crie uma página dedicada para destacar as marcas de cosméticos vendidas na loja, com informações sobre a história e os valores de cada marca.
+
+10. Redefinir Senha e Recuperação de Conta:
+Na página de login, forneça opções fáceis para redefinir a senha e recuperar a conta, caso os clientes esqueçam suas informações de login.
+
+Lembre-se de que o design deve ser intuitivo, fácil de navegar e agradável visualmente. Teste a usabilidade do site e solicite feedback de usuários para aprimorar a experiência do cliente. Certifique-se de que o design seja consistente em todas as páginas para criar uma experiência coesa.
