@@ -14,10 +14,30 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
-    <span class="material-symbols-outlined">account_circle</span>
-    <span class="material-symbols-outlined">shopping_cart</span>
-    <span class="material-symbols-outlined">search</span>
-    <span class="material-symbols-outlined">logout</span>
-    <span class="material-symbols-outlined">menu</span>
+    <header class="header">
+        <section class="header_menu" grid-area="menu">menu</section>
+
+        <img src="../imagens/logos/logo_beauty_small_white.png" alt="Logo da Loja" draggable="false" grid-area="logo" class="header_logo">
+
+        <section class="header_pesquisa" grid-area="pesquisa">
+            <input type="search" name="pesquisa" id="pesquisa" placeholder="Pesquisar produtos no site...">
+        </section>
+
+        <section class="header_user" grid-area="usuario">
+            <div>usuario</div>
+            <div>carrinho</div>
+        </section>
+    </header>
+
+    <main>
+        <section class="promo">
+            promos
+        </section>
+        <section class="home_produtos">
+            produtos
+        </section>
+    </main>
+
+    <footer></footer>
 </body>
 </html>

@@ -8,7 +8,6 @@
     --cor4: #344e41;
 }
 
-<<<<<<< HEAD
 body {
     background-color: #a3b18a;
 }
@@ -28,22 +27,6 @@ body {
     width: 100vw;
     height: 80px;
     
-=======
-.header {
-    display: grid;
-    grid-template-columns: repeat(4, auto);
-    grid-template-rows: repeat(2, auto);
-    grid-template-areas: 
-    'menu logo pesquisa pesquisa usuario'
-    'menu logo pesquisa pesquisa carrinho'
-    ;
-
-    align-items: center;
-
-    background-color: var(--cor2);
-    width: 100vw;
-    height: 60px;
->>>>>>> 38529a360a1f0ebcea5884f43b08987bfb0c2c6e
     box-sizing: border-box;
 }
 
@@ -54,13 +37,8 @@ body {
 }
 
 .header_logo {
-<<<<<<< HEAD
     width: 80px;
     height: 80px;
-=======
-    width: 50px;
-    height: 50px;
->>>>>>> 38529a360a1f0ebcea5884f43b08987bfb0c2c6e
 }
 
 .header_logo img {
@@ -70,7 +48,6 @@ body {
 
 .header_pesquisa {
     width: 50vw;
-<<<<<<< HEAD
     height: 30px;
     justify-self: center;
 }
@@ -102,21 +79,11 @@ input[type="search"]::-webkit-search-results-decoration {
 .header_user {
     width: 100px;
     height: 30px;
-=======
-    height: 50px;
-    background-color: var(--cor1);
-}
-
-.header_usuario {
-    width: 100px;
-    height: 50px;
->>>>>>> 38529a360a1f0ebcea5884f43b08987bfb0c2c6e
     background-color: var(--cor1);
 }
 
 .header_carrinho {
     width: 100px;
-<<<<<<< HEAD
     height: 30px;
     background-color: var(--cor1);
 }
@@ -141,8 +108,4 @@ main {
     background-color: rgba(255, 255, 255, 0.288);
     width: 60vw;
     height: 300px;
-=======
-    height: 50px;
-    background-color: var(--cor1);
->>>>>>> 38529a360a1f0ebcea5884f43b08987bfb0c2c6e
 }
