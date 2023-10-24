@@ -7,21 +7,18 @@
     --cor3: #3a5a40;
     --cor4: #344e41;
 }
-
 body {
     background-color: #a3b18a;
 }
 
 /* header */
 
-.header {
-    display: grid;
-    grid-template-columns: 60px 60px 60vw 100px;
-    grid-template-rows: auto;
-    grid-template-areas: 'menu logo pesquisa usuario';
+.container_header {
+    display: flex;
+    flex-flow: row nowrap;
 
-    align-items: center;
     justify-content: center;
+    align-items: center;
 
     background-color: var(--cor2);
     width: 100vw;
@@ -30,29 +27,33 @@ body {
     box-sizing: border-box;
 }
 
-.header_menu {
-    width: 50px;
-    height: 50px;
-    background-color: var(--cor1);
+.item_menu_logo {
+    display: flex;
+    width: 25vw;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
 }
 
-.header_logo {
-    width: 80px;
-    height: 80px;
+#item_burguer {
+    padding: 0px 15px;
+    font-size: 40px;
+    color: white;
+    font-weight: 150;
 }
 
-.header_logo img {
-    width: 100%;
-    height: 100%;
+.item_logo {
+    width: 75px;
 }
 
-.header_pesquisa {
+/* barra de pesquisa ----------------------------------------------- */
+
+.item_pesquisa {
     width: 50vw;
     height: 30px;
-    justify-self: center;
 }
 
-.header_pesquisa input {
+.item_pesquisa input {
     width: 100%;
     height: 100%;
     box-shadow: 0 0 0 0;
@@ -60,7 +61,7 @@ body {
     outline: 0;
     font-size: 1em;
     color: rgb(41, 41, 41);
-    padding-left: 20px;
+    padding-right: 20px;
 }
 
 input[type="search"]:focus-within {
@@ -76,19 +77,36 @@ input[type="search"]::-webkit-search-results-decoration {
   display: none;
 }
 
-.header_user {
-    width: 100px;
-    height: 30px;
-    background-color: var(--cor1);
+/* --------------------------------------------------------------- */
+
+.item_user {
+    width: 25vw;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    padding-left: 20px;
 }
 
-.header_carrinho {
-    width: 100px;
-    height: 30px;
-    background-color: var(--cor1);
+.item_user div {
+    color: white;
+    margin: 10px;
 }
 
-/* main */
+.item_user div p {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.item_user div p span {
+    font-weight: 150;
+    margin-left: 10px;
+}
+
+/* main -------------------------------------------------------------- */
 
 main {
     display: flex;
