@@ -17,18 +17,26 @@
     <header class="header">
         <section class="header_menu" grid-area="menu">menu</section>
 
-        <section class="header_logo" grid-area="logo">
-            <img src="../imagens/logos/logo_beauty_small_white.png" alt="Logo da Loja" draggable="false">
+        <img src="../imagens/logos/logo_beauty_small_white.png" alt="Logo da Loja" draggable="false" grid-area="logo" class="header_logo">
+
+        <section class="header_pesquisa" grid-area="pesquisa">
+            <input type="search" name="pesquisa" id="pesquisa" placeholder="Pesquisar produtos no site...">
         </section>
 
-        <section class="header_pesquisa" grid-area="pesquisa">barra de pesquisa</section>
-
-        <section class="header_usuario" grid-area="usuario">usuario</section>
-
-        <section class="header_carrinho" grid-area="carrinho">carrinho</section>
+        <section class="header_user" grid-area="usuario">
+            <div>usuario</div>
+            <div>carrinho</div>
+        </section>
     </header>
 
-    <main></main>
+    <main>
+        <section class="promo">
+            promos
+        </section>
+        <section class="home_produtos">
+            produtos
+        </section>
+    </main>
 
     <footer></footer>
 </body>
