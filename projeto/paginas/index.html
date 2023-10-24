@@ -12,17 +12,21 @@
     <!-- icones -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <!-- script -->
+    <script src="../javascript/menu.js"></script>
 </head>
 <body>
     <header class="container_header">
         <div class="item_menu_logo">
-            <i class="material-symbols-outlined" id="item_burguer">menu</i>
+            <i class="material-symbols-outlined" id="item_burguer" onclick="ClickMenu()">menu</i>
             <img src="../imagens/logos/logo_beauty_small_white.png" alt="Logo da Loja" draggable="false" class="item_logo">
         </div>
 
         <div class="item_pesquisa">
             <input type="search" name="pesquisa" id="pesquisa" placeholder="Pesquisar produtos no site...">
         </div>
+        <img src="../imagens/logos/logo_mobile_white.png" alt="Logo Beauty Boutique" draggable="false" class="logo_mobile">
 
         <div class="item_user">
             <div>
@@ -34,7 +38,33 @@
         </div>
     </header>
 
-    <main>
+        <!-- menu -->
+        <div id="menu">
+            <p>Marcas</p>
+            <ul id="MenuMarcas">
+                <a href="../paginas/produtos/eudora.html">Eudora</a>
+                <a href="../paginas/produtos/natura.html">Natura</a>
+                <a href="../paginas/produtos/salonline.html">Salon Line</a>
+            </ul>
+            
+            <ul id="MenuMaquiagem">
+                <p>Maquiagem</p>
+                <li>Olhos
+                <li>Boca
+                <li>Pele
+                <li>Acessórios
+            </ul>
+            <ul id="MenuCabelo">
+                <p>Cabelo</p>
+                <li>Shampoo
+                <li>Condicionador
+                <li>Hidratação
+                <li>Tonalizantes
+            </ul>
+        </div>
+        <!-- ---- -->
+
+    <main grid-area="main">
         <section class="promo">
             promos
         </section>
