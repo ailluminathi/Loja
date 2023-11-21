@@ -4,6 +4,7 @@
 
 * {
     font-family: Arial, Helvetica, sans-serif;
+    transition: width 0.3s ease;
 }
 
 :root {
