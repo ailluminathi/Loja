@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fazer Login</title>
+    <link rel="stylesheet" href="../estilos/reset.css">
+    <link rel="stylesheet" href="../estilos/login.css">
+</head>
+<body>
+    <header>
+        <img src="../imagens/logos/logo_beauty_small_white.png" alt="Logo Beauty Boutique" draggable="false" class="header_desk">
+        <img src="../imagens/logos/logo_mobile_white.png" alt="Logo Beauty Boutique" draggable="false" class="header_mobile">
+    </header>
+    <main>
+        <section class="container">
+
+            <div class="container__imagem"></div>
+
+            <form action="cadastro.php" method="post" class="container__form">
+                    <div class="container__login">
+                        <h1 class="container__login__titulo">Login</h1>
+
+                        <p class="container__login__paragrafo__input"><label for="email"><img src="../imagens/logos/icone_email.png" alt="Email" class="container__login__icones" draggable="false"></label><input type="email" name="email" id="email" placeholder="Digite seu e-mail" class="container__login__email"></p>
+
+                        <p class="container__login__paragrafo__input"><label for="password"><img src="../imagens/logos/icone_senha.png" alt="Senha" class="container__login__icones" draggable="false"></label><input type="password" name="password" id="password" placeholder="********" class="container__login__password"></p>
+
+                        <a href="#" class="container__login__esqueci-minha-senha">Esqueci minha senha</a>
+
+                        <input type="submit" value="Login" class="container__login__botao container__login__botao__login">
+
+                        <p>ou</p>
+
+                        <button class="container__login__botao container__login__botao__facebook"><img src="../imagens/logos/logo_facebook.png" alt="Facebook" draggable="false">Entrar com Facebook</button>
+
+                        <button class="container__login__botao container__login__botao__google"><img src="../imagens/logos/logo_google.png" alt="Google" draggable="false">Entrar com Google</button>
+
+                        <p class="container__login__cadastro">Ainda não possue uma conta? <a href="#">Cadastrar-se</a></p>
+                    </div>
+
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por <a href="https://github.com/ailluminathi">Náthali Santos</a> e <a href="https://github.com/luhsalim">Luhan Salim</a></p>
+    </footer>
+</body>
+</html>
